@@ -1,8 +1,8 @@
-body, .conversation-list-heading .inner, .profilecols .filter-bar, .discussion-timeline-actions {
+body, .conversation-list-heading .inner, .profilecols .filter-bar, .discussion-timeline-actions, .new-discussion-timeline {
   background-color: #111112 !important;
 }
 
-body, .button, .minibutton, .social-count, .text-emphasized, .sunken-menu-item.selected .octicon, .sunken-menu-item:focus .octicon, .sunken-menu-item:hover .octicon, .news .alert .simple .title, .subscribe-feed, .mini-repo-list-item .repo-icon, .select-menu-title, .select-menu-item-text, .tabnav-tab.selected, .contrib-number, .user-mention, .team-mention, .profilecols .filter-bar li .filter-selected, label, .menu-heading, .menu-item.selected, .boxed-group-inner h4, .boxed-group-inner strong, .dropdown-menu>li>a, .filter-item.selected, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected, .subnav-item, .commit-tease .authorship .author-name, .repository-lang-stats ol.repository-lang-stats-numbers li .lang, .menu-item .octicon, .full-commit p.commit-title, .file .meta, .thread-subscription-status p.reason, .blob-code, .blob-code-addition, .blob-num-addition, .org-name, .org-header, .member-username, .audit-action-info .context, .billing-plans .name, .boxed-group-table th {
+body, .lead, .button, .minibutton, .social-count, .text-emphasized, .sunken-menu-item.selected .octicon, .sunken-menu-item:focus .octicon, .sunken-menu-item:hover .octicon, .news .alert .simple .title, .subscribe-feed, .mini-repo-list-item .repo-icon, .select-menu-title, .select-menu-item-text, .tabnav-tab.selected, .contrib-number, .user-mention, .team-mention, .profilecols .filter-bar li .filter-selected, label, .menu-heading, .menu-item.selected, .boxed-group-inner h4, .boxed-group-inner strong, .dropdown-menu>li>a, .filter-item.selected, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected, .subnav-item, .commit-tease .authorship .author-name, .repository-lang-stats ol.repository-lang-stats-numbers li .lang, .menu-item .octicon, .full-commit p.commit-title, .file .meta, .thread-subscription-status p.reason, .blob-code, .blob-code-addition, .blob-num-addition, .org-name, .org-header, .member-username, .audit-action-info .context, .billing-plans .name, .boxed-group-table th, button.discussion-sidebar-toggle, .blob-num {
   color: #aaa !important;
 }
 
@@ -15,21 +15,21 @@ body, .button, .minibutton, .social-count, .text-emphasized, .sunken-menu-item.s
   text-shadow: none !important;
 }
 
-.button, .minibutton, .social-count, .boxed-group > h3, .entry-content, table.files, .input-mini, .header, .commit-tease, .commit-meta, .counter, .hidden-text-expander a, .site-search .scope-badge, .pagination a, .mini-repo-list-item, .filter-bar, .boxed-group-inner, .menu, .menu-heading, .menu-item.selected, .filter-item:hover, .table-list-header, .issues-listing .table-list-issues .selectable:hover, .issues-listing .table-list-issues .navigation-focus, .subnav-item:hover, .subnav-item:focus, .branch-infobar, .full-commit, .file-diff-split .empty-cell, .file .meta, .timeline-comment, .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .org-header, .simple-box, .simple-box-footer, .audit-results-header, .sunken-menu-item.selected {
+.button, .minibutton, .social-count, .boxed-group > h3, .entry-content, table.files, .input-mini, .header, .commit-tease, .commit-meta, .counter, .hidden-text-expander a, .site-search .scope-badge, .pagination a, .mini-repo-list-item, .filter-bar, .boxed-group-inner, .menu, .menu-heading, .menu-item.selected, .filter-item:hover, .table-list-header, .issues-listing .table-list-issues .selectable:hover, .issues-listing .table-list-issues .navigation-focus, .subnav-item:hover, .subnav-item:focus, .branch-infobar, .full-commit, .file-diff-split .empty-cell, .file .meta, .timeline-comment, .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav, .org-header, .simple-box, .simple-box-footer, .audit-results-header, .sunken-menu-item.selected, .timeline-comment-label, .file-history-tease .participation {
   background-color: #222 !important;
 }
 
-.button, .minibutton, .social-count, .boxed-group > h3, .boxed-group .heading, .markdown-body, hr, .rule, .file-wrap, table.files td, .input-mini, .header, .markdown-body h1, .markdown-body h2, .commit-tease, .commit-meta, .overall-summary, .counter, blockquote, .site-search .scope-badge, .news .alert, .flash, .flash-global, .site-footer, .boxed-group-inner, .vcard-details, .vcard-stats, .tabnav, .tabnav-tab.selected, .contrib-column, .conversation-list-heading, .repo-list-item, .menu, .menu-item, .menu-heading, .blankslate, .boxed-group-list>li, .table-list-header, .table-list, .subnav-item, .table-list-cell, .branch-infobar, .file-diff-split .empty-cell, .blob-num-hunk, .blob-code-hunk, .blob-num-expandable, .blob-code-expandable, .file, .file .meta, .timeline-comment, .drag-and-drop, .thread-subscription-status, .org-header, .subnav-bordered, .simple-box, .simple-box-footer, .org-teams-list .team, .org-module-title, .audit-results-header, .billing-section, .boxed-group-table td, .list-group-item {
+.button, .minibutton, .social-count, .boxed-group > h3, .boxed-group .heading, .markdown-body, hr, .rule, .file-wrap, table.files td, .input-mini, .header, .markdown-body h1, .markdown-body h2, .commit-tease, .commit-meta, .overall-summary, .counter, blockquote, .site-search .scope-badge, .news .alert, .flash, .flash-global, .site-footer, .boxed-group-inner, .vcard-details, .vcard-stats, .tabnav, .tabnav-tab.selected, .contrib-column, .conversation-list-heading, .repo-list-item, .menu, .menu-item, .menu-heading, .blankslate, .boxed-group-list>li, .table-list-header, .table-list, .subnav-item, .table-list-cell, .branch-infobar, .file-diff-split .empty-cell, .blob-num-hunk, .blob-code-hunk, .blob-num-expandable, .blob-code-expandable, .file, .file .meta, .timeline-comment, .drag-and-drop, .thread-subscription-status, .org-header, .subnav-bordered, .simple-box, .simple-box-footer, .org-teams-list .team, .org-module-title, .audit-results-header, .billing-section, .boxed-group-table td, .list-group-item, .gh-header-meta, .select-menu-filters, .discussion-sidebar-item + .discussion-sidebar-item, .filter-bar, .blob-num, .file-history-tease, .file-history-tease .participation {
   border-color: #555 !important;
 }
 
 .timeline-comment-wrapper > .timeline-comment::before, .timeline-new-comment .timeline-comment::before, .timeline-comment-wrapper > .timeline-comment::after, .timeline-new-comment .timeline-comment::after { border-right-color: #555 !important; }
 
-.button, .markdown-body hr, .hidden-text-expander a, .markdown-body .highlight pre, .markdown-body pre, .markdown-body code, .markdown-body tt, .flash, .flash-global, .pagination a, .select-menu-header, .select-menu-modal, .tabnav-tab.selected, .menu-item:hover, .boxed-group-list>li:hover, .blankslate, .dropdown-menu, .blob-num-hunk, .blob-num-expandable, .blob-code-hunk, .blob-code-expandable, .drag-and-drop, .thread-subscription-status, .boxed-group-table th, .timeline-comment-header, .notifications .read.navigation-focus {
+.button, .markdown-body hr, .hidden-text-expander a, .markdown-body .highlight pre, .markdown-body pre, .markdown-body code, .markdown-body tt, .flash, .flash-global, .pagination a, .select-menu-header, .select-menu-modal, .tabnav-tab.selected, .menu-item:hover, .boxed-group-list>li:hover, .blankslate, .dropdown-menu, .blob-num-hunk, .blob-num-expandable, .blob-code-hunk, .blob-code-expandable, .drag-and-drop, .thread-subscription-status, .boxed-group-table th, .timeline-comment-header, .notifications .read.navigation-focus, .select-menu-filters, .file-history-tease {
   background-color: #555 !important;
 }
 
-.repository-meta .repository-description, .text-muted, .sha, .header-nav-link, .header-logo-invertocat, .numbers-summary a, .numbers-summary .nolink, .pagehead.repohead h1 .octicon-lock, .pagehead.repohead h1 .octicon-repo, .pagehead.repohead h1 .octicon-mirror, .pagehead.repohead h1 .octicon-repo-forked, .pagehead.repohead h1 .octicon-gist, .pagehead.repohead h1 .octicon-gist-secret, .pagination a, .flash, .flash-global, .news .alert .body, .octofication .message p, .repo-filterer .repo-filter, .pagehead-nav-item.selected, .select-menu-item.select-menu-action>.octicon, .select-menu-item.selected>.octicon, .blog-post-body, .explore-collection h2 {
+.repository-meta .repository-description, .text-muted, .sha, .header-nav-link, .header-logo-invertocat, .numbers-summary a, .numbers-summary .nolink, .pagehead.repohead h1 .octicon-lock, .pagehead.repohead h1 .octicon-repo, .pagehead.repohead h1 .octicon-mirror, .pagehead.repohead h1 .octicon-repo-forked, .pagehead.repohead h1 .octicon-gist, .pagehead.repohead h1 .octicon-gist-secret, .pagination a, .flash, .flash-global, .news .alert .body, .octofication .message p, .repo-filterer .repo-filter, .pagehead-nav-item.selected, .select-menu-item.select-menu-action>.octicon, .select-menu-item.selected>.octicon, .blog-post-body, .explore-collection h2, .js-showoff-icon .mega-octicon {
   color: #aaa !important;
 }
 
@@ -61,12 +61,12 @@ table.files td.icon .octicon-file-directory {
 
 .commit-tease { border-bottom-width: 0 !important; }
 
-.sunken-menu, .sunken-menu:before, .sunken-menu:after {
+.sunken-menu, .sunken-menu:before, .sunken-menu:after, .more-repos {
   box-shadow: none !important;
   background-image: none !important;
 }
 
-.sunken-menu-separator { display: none !important; }
+.sunken-menu-separator, .closed-banner { display: none !important; }
 
 .blob-code-addition, .blob-num-addition, .billing-plans .current {
   background-color: #394e36 !important;
